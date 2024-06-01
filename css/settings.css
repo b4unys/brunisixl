@@ -1,0 +1,37 @@
+#settings-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#particles-toggle-button {
+    position: fixed;
+    bottom: 20px;
+    left: 120px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#settings-menu {
+    position: fixed;
+    bottom: 60px;
+    left: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    z-index: 1000;
+}
+
+#settings-menu label {
+    display: block;
+    margin-bottom: 5px;
+}
