@@ -75,3 +75,19 @@ h2, h3, h4, h5, h6, p {
 	color: white;
 	text-align: center;
 }
+
+button {
+        padding: 13px 23px;
+        background-color: #000;
+        color: #fff;
+        border: 2px solid #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-left: 10px;
+        transition: transform 0.3s, filter 0.3s;
+    }
+button:hover {
+    transform: scale(1.1);
+    filter: invert(1);
+}
