@@ -1,8 +1,8 @@
 document.getElementById('changeBtn').addEventListener('click', function() {
-   
+    // Change Favicon
     var favicon = document.getElementById('favicon');
-    favicon.href = '/images/brunysixl.png';
+    favicon.href = 'new-favicon.png';
 
-    
-    document.title = 'BrunysIXL';
+    // Change Title
+    document.title = 'New Title';
 });
