@@ -91,3 +91,16 @@ button:hover {
     transform: scale(1.1);
     filter: invert(1);
 }
+
+.link-redirect {
+  color: white; 
+}
+
+.link-redirect a {
+  color: white; 
+  text-decoration: none; 
+}
+
+.link-redirect a:hover {
+  text-decoration: underline; 
+}
