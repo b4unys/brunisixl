@@ -8,10 +8,10 @@ body {
 .navbar {
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     height: 70px;
-    padding: 0 1px;
+    padding: 0 10px;
     color: white;
     position: fixed;
     width: 100%;
