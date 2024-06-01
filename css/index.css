@@ -2,6 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lexend';
+    position: absolute;
+    text-align: center;
+    color: white;
 }
 
 .navbar {
@@ -62,11 +65,9 @@ body {
 
 .content {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     color: white;
+    
 }
 
 h1 {
