@@ -1,0 +1,7 @@
+#current-time {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 1em;
+}
