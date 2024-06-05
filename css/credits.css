@@ -1,0 +1,13 @@
+.credits-box {
+        width: 700px;
+        height: 450px;
+        background-color: #000000;
+        border: 2px solid #ffffff;
+        border-radius: 10px;
+        margin: 30px auto 0; 
+	text-align: center;
+    }
+
+h4 {
+	margin-top: 50px;
+}
