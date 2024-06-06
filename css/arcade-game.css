@@ -40,14 +40,6 @@
     height: 100%;
 }
 
-.game a:focus {
-    outline: none;
-}
-
-.game a:focus img {
-    border: 2px solid white;
-}
-
 .game:hover img {
     border: 2px solid white;
 }
