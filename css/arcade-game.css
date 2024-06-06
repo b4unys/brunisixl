@@ -16,7 +16,7 @@
 .games {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 3px;
     justify-content: center;
 }
 
