@@ -1,22 +1,46 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Check if there are stored favicon and title
-    if(sessionStorage.getItem('favicon')) {
+    var isToggled = false; 
+
+    
+    function applyChanges() {
+
         var favicon = document.querySelector("link[rel*='icon']");
-        favicon.href = sessionStorage.getItem('favicon');
-    }
-    if(sessionStorage.getItem('title')) {
-        document.title = sessionStorage.getItem('title');
+        favicon.href = 'new_favicon.png';
+        localStorage.setItem('favicon', '/images/cloak/schoologyfavicon.png');
+        
+        
+        document.title = 'New Title';
+        localStorage.setItem('title', 'Home | Schoology');
     }
 
-    // Change Favicon and Title
-    document.getElementById('changeButton').addEventListener('click', function() {
-        // Change Favicon
+  
+    function removeChanges() {
+
         var favicon = document.querySelector("link[rel*='icon']");
-        favicon.href = '/images/cloak/schoology.ico';
-        sessionStorage.setItem('favicon', '/images/cloak/schoology.ico');
+        favicon.href = '/images/cloak/brunysixlfavicon.png';
+        localStorage.removeItem('favicon');
         
-        // Change Title
-        document.title = 'Home | Schoology';
-        sessionStorage.setItem('title', 'Home | Schoology');
+
+        document.title = 'IXL | Math';
+        localStorage.removeItem('title');
+    }
+
+  
+    document.getElementById('toggleButton').addEventListener('click', function() {
+        if (isToggled) {
+            
+            removeChanges();
+            isToggled = false;
+        } else {
+
+            applyChanges();
+            isToggled = true;
+        }
     });
+
+    
+    if(localStorage.getItem('favicon') && localStorage.getItem('title')) {
+        applyChanges();
+        isToggled = true;
+    }
 });
