@@ -247,7 +247,7 @@
 
                 saveButton.addEventListener("click", function() {
                     const selectedValue = presetSelect.value;
-                    successMessage.textContent = "preset chosen! refresh the page to see changes";
+                    successMessage.textContent = "saved! refresh the page to see changes";
                     setCookie("tabCloakPreset", selectedValue, { expires: 365 });
 
                     successMessage.style.display = "block";
