@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function applyChanges() {
 
         var favicon = document.querySelector("link[rel*='icon']");
-        favicon.href = '/images/cloak/schoologyfavicon.png';
-        localStorage.setItem('favicon', '/images/cloak/schoologyfavicon.png');
+        favicon.href = '/images/schoologyfavicon.png';
+        localStorage.setItem('favicon', '/images/schoologyfavicon.png');
         
         
         document.title = 'Home | Schoology';
