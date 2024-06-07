@@ -73,11 +73,11 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         IXL: {
             favicon: "../../images/icons/ixl.ico",
-            title: "IXL"
+            title: "IXL | Math"
         },
         meximath: {
             favicon: "../../images/icons/meximath.ico",
-            title: "meximath"
+            title: "MexiMath"
         }
     };
 
