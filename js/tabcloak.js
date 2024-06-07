@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function applyChanges() {
         setFavicon('/images/schoologyfavicon.png');
         localStorage.setItem('favicon', '/images/schoologyfavicon.png');
-        document.title = 'New Title';
+        document.title = 'Home | Schoology';
         localStorage.setItem('title', 'Home | Schoology');
     }
 
