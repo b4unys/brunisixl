@@ -82,6 +82,10 @@ document.addEventListener("DOMContentLoaded", function() {
         szvycentral: {
             favicon: "../../images/icons/szvycentral.ico",
             title: "Szvy Central"
+        },
+        pablocp: {
+            favicon: "../../images/icons/pablocp.ico",
+            title: "PabloCP"
         }
     };
 
