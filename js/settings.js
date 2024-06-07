@@ -87,6 +87,11 @@ document.addEventListener("DOMContentLoaded", function() {
             favicon: "../../images/icons/pablocp.ico",
             title: "PabloCP"
         }
+        ,
+        fa: {
+            favicon: "../../images/icons/fa.ico",
+            title: "Frogies Arcade"
+        }
     };
 
     if (selectedPreset && presets[selectedPreset]) {
