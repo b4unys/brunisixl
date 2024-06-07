@@ -12,11 +12,11 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('changeButton').addEventListener('click', function() {
         // Change Favicon
         var favicon = document.querySelector("link[rel*='icon']");
-        favicon.href = 'new_favicon.png';
+        favicon.href = '/images/cloak/schoology.ico';
         sessionStorage.setItem('favicon', '/images/cloak/schoology.ico');
         
         // Change Title
-        document.title = 'New Title';
+        document.title = 'Home | Schoology';
         sessionStorage.setItem('title', 'Home | Schoology');
     });
 });
