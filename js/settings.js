@@ -70,6 +70,14 @@ document.addEventListener("DOMContentLoaded", function() {
         googledrive: {
             favicon: "../../images/icons/googledrive.ico",
             title: "My Drive"
+        },
+        IXL: {
+            favicon: "../../images/icons/ixl.ico",
+            title: "IXL"
+        },
+        meximath: {
+            favicon: "../../images/icons/meximath.ico",
+            title: "meximath"
         }
     };
 
