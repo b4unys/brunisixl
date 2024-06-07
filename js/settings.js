@@ -78,6 +78,10 @@ document.addEventListener("DOMContentLoaded", function() {
         meximath: {
             favicon: "../../images/icons/meximath.ico",
             title: "MexiMath"
+        },
+        szvycentral: {
+            favicon: "../../images/icons/szvycentral.ico",
+            title: "Szvy Central"
         }
     };
 
