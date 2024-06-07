@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
     function applyChanges() {
 
         var favicon = document.querySelector("link[rel*='icon']");
-        favicon.href = 'new_favicon.png';
+        favicon.href = '/images/cloak/schoologyfavicon.png';
         localStorage.setItem('favicon', '/images/cloak/schoologyfavicon.png');
         
         
-        document.title = 'New Title';
+        document.title = 'Home | Schoology';
         localStorage.setItem('title', 'Home | Schoology');
     }
 
