@@ -6,12 +6,9 @@ select {
     padding-top: 5px;
     font-size: 20px;
     padding-bottom: 5px;
-    border: 3px solid var(--border-color2);
     margin: 2px;
-    border-radius: 32px;
+    border-radius: 10px;
     padding-left: 10px;
     border: 2px solid #fff;
     padding-right: 10px;
-    font-family: var(--font-family);
-    animation: searchTween 1.5s ease-in-out forwards;
 }
