@@ -25,6 +25,6 @@ function changeFaviconAndTitle() {
     const newTitle = "Schoology";
     const newFaviconURL = "/images/cloak/schoology.ico"; // Change to the path of your new favicon
 
-    changeTitle(Schoology);
-    changeFavicon(/images/cloak/schoology.ico);
+    changeTitle(newTitle);
+    changeFavicon(newFaviconURL);
 }
