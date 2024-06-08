@@ -16,7 +16,7 @@
 .games {
     display: flex;
     flex-wrap: wrap;
-    gap: 2px;
+    gap: 1px;
     justify-content: center;
 }
 
@@ -24,7 +24,7 @@
     position: relative;
     width: 120px;
     height: 120px;
-    margin: 10px;
+    margin: 5px;
 }
 
 .game img {
