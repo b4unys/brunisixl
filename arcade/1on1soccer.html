@@ -40,6 +40,43 @@
     </div>
 
     <button onclick="fullscreenIframe()" id="fullscreenBtn">Fullscreen</button>
+
+    <button onclick="toggleScript()">Enable Chat</button>
+    <script>
+		function createScript() {
+			var script = document.createElement("script");
+			script.id = "discord";
+			script.src = "https://cdn.jsdelivr.net/npm/@widgetbot/crate@3";
+			script.innerHTML = "new Crate({ server: '975549006841270312', channel: '1042980843704025158' });";
+			document.body.appendChild(script);
+		}
+
+		function deleteScript() {
+			var script = document.getElementById("discord");
+			if (script) {
+				document.body.removeChild(script);
+			}
+		}
+
+		function toggleScript() {
+			var script = document.getElementById("discord");
+			if (script) {
+				deleteScript();
+			} else {
+				createScript();
+			}
+		}
+	</script>
+
+  <button class="cyan" onclick="toggleWidgetBot(); deleteDiscord()">Disable Chat</button>
+  <script>
+      function deleteDiscord() {
+        var script = document.getElementById("discord");
+        if (script) {
+          script.parentNode.removeChild(script);
+        }
+      }
+    </script>
     
     <div id="clock"></div>
     <script src="/js/particles.js"></script>
