@@ -95,6 +95,10 @@ document.addEventListener("DOMContentLoaded", function() {
         schoology: {
             favicon: "../../images/icons/schoology.ico",
             title: "Home | Schoology"
+        },
+        clever: {
+            favicon: "../../images/icons/clever.ico",
+            title: "Clever | Portal"
         }
     };
 
