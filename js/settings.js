@@ -91,6 +91,10 @@ document.addEventListener("DOMContentLoaded", function() {
         fa: {
             favicon: "../../images/icons/fa.ico",
             title: "Frogies Arcade"
+        },
+        schoology: {
+            favicon: "../../images/icons/schoology.ico",
+            title: "Home | Schoology"
         }
     };
 
